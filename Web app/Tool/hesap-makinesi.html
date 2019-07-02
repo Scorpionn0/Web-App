@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Hesap Makinesi</title> 
+<link rel="stylesheet" type="text/css" href="hesap-makinesi.css">
+<script type="text/javascript" src="hesap-makinesi.js"></script>
+
+</head>
+
+<body>
+<div class="main">
+<div class="menu-st">
+<div class="menu">
+       
+
+
+         <ul>
+            <li><a href="/Anasayfa/Anasayfa.html">Anasayfa</a></li>
+            <li><a href="/Message/Message.html" title="">Mesajlaşma</a></li>
+            <li><a href="/Tool/Tool.html" title="">Araçlar</a>
+                <ul>
+                    <li><a href="/Tool/hesap-makinesi.html" title="">Hesap Makinesi</a></li>
+                    <li><a href="/Tool/Kronometre.html"title="">Kronometre</a></li>
+                     
+
+                </ul>
+            </li>
+
+
+        </ul>
+         <ul>
+           
+            <li><a href="/Tool/Tool.html" title="">Oyunlar</a>
+                <ul>
+                    <li><a href="/Game/snake.html" title="">Yılan oyunu</a></li>
+                    
+                </ul>
+            </li>
+            
+           
+        </ul>
+    </div>
+</div>
+
+<div class="view">
+    
+     <div class="bg">
+  <div class="up">
+   <form name="form">
+        <input class="textview" name="textview" disabled>
+    </form>
+  </div>
+  <div class="mainh">
+        <table>
+            <tr>
+                <td><input class="button" type=button value="C" onclick="clean()"></td>
+                <td><input class="button" type=button value="←" onclick="back()"></td>
+                <td><input class="button" type=button value="/" onclick="insert('/')"></td>
+                <td><input class="button" type=button value="X" onclick="insert('*')"></td>
+            
+            </tr>
+            <tr>
+                <td><input class="button" type=button value="7" onclick="insert(7)"></td>
+                <td><input class="button" type=button value="8" onclick="insert(8)"></td>    
+                <td><input class="button" type=button value="9" onclick="insert(9)"></td>    
+                <td><input class="button" type=button value="-" onclick="insert('-')"></td>  
+        
+            <tr>
+                <td><input class="button" type=button value="4" onclick="insert(4)"></td>
+                <td><input class="button" type=button value="5" onclick="insert(5)"></td>
+                <td><input class="button" type=button value="6" onclick="insert(6)"></td>
+                <td><input class="button" type=button value="+" onclick="insert('+')"></td>
+            
+            </tr>
+             <tr>
+                <td><input class="button" type=button value="1" onclick="insert(1)"></td>
+                <td><input class="button" type=button value="2" onclick="insert(2)"></td>
+                <td><input class="button" type=button value="3" onclick="insert(3)"></td>
+                <td rowspan="5"><input class="button" style="height: 102px; background:#ff2e0a;" id="son" type=button value="=" onclick="equal()"></td>
+            
+            </tr>
+            <tr>
+            <td colspan="2"><input class="button" style="width: 103px" type=button value="0" onclick="insert(0)"></td>
+            <td><input class="button" type=button value="." onclick="insert('.')"></td>
+            </tr>
+            
+            
+        
+        </table>
+  </div>
+</div>
+    
+</div>
+
+</div>  
+
+
+</body>
+
+</html>

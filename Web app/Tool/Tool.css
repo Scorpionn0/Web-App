@@ -1,0 +1,164 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #F6FDFF;
+	font-family: open sans,sans-serif;
+	font-size: 13px;
+
+}
+.main{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 800px;
+	border-radius:15px;
+	height: 500px;
+	border: 1px solid #fff;
+	background: #fff;
+}
+
+ .menu {
+    width:140px;
+    margin-top:10px;
+    background:#fff;
+}
+.menu-st{
+	width: 171px;
+	height: 500px;
+	margin-top: -10px;
+	border-right: 1px solid #42b0f4;
+}
+.menu ul {
+    display:block;
+    margin:0;
+    text-align:center;
+    padding:0;
+    width: 120px;
+    transition:0.5;
+
+}
+.menu ul li {
+    list-style:none;
+    transition:0.5;
+
+    
+}
+.menu ul li a {
+    display:block;
+    background:#42b0f4;
+    color:#fff;
+    font-size:12px;
+   	text-align: center;
+   	line-height: 30px;
+    text-decoration:none;
+    font-family: Arial;
+    height: 30px;
+    transition:0.5;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+.menu ul li a:hover {
+    background:#00FFC6;
+}
+.menu ul li ul {
+    display:none;
+    margin-left:15px;
+    background:#fff;
+    width:155px;
+    transition:0.5;
+
+}
+.menu ul li ul li {
+    display:block;
+    transition:0.5;
+
+}
+.menu ul li:hover > a {
+    background:#00FFC6;
+    color:#42b0f4;
+    transition:0.5;
+
+
+}
+.menu ul li ul li a {
+    background:#00FFC6;
+    text-align:center;
+    transition:0.5;
+
+}
+.menu ul li ul li a:hover {
+    background:#00FFC6;	
+    transition:0.5;
+
+}
+.menu ul li:hover ul {
+    display:block;
+}
+.view{
+float: right;
+margin-top: -500px;
+width: 628px;
+height: 500px;
+}
+.resim{
+    width: 200px;
+    height: 180px;
+}
+.resimm{
+    width: 230px;
+    height: 180px;
+}
+.Toolone{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.toolone-pers{
+    width: 200px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background: #42b0f4;
+    margin-top: -5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+    transition: 0.5s;
+
+}
+.toolone-pers > a{
+text-decoration: none;
+color: #fff;
+
+}
+.toolone-pers:hover{
+     background: #00FFC6;
+    color: #fff;
+}
+.Tooltwo{
+    margin-left: 230px;
+    margin-top: -213px;
+    cursor: pointer;
+}
+.tooltwo-pers{
+    width: 230px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background: #42b0f4;
+    margin-top: -5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+    transition: 0.5s;
+}
+.tooltwo-pers > a{
+text-decoration: none;
+color: #fff;
+
+}
+.tooltwo-pers:hover{
+    background: #00FFC6;
+    color:#fff;
+}
+ 
